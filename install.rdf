@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="{e1f9ea30-0906-11df-8a39-0800200c9a66}"
+                   em:version="1.3"
+                   em:type="2"
+                   em:name="Gfire WebGame Detection Plugin"
+                   em:description="This extension tells Xfire and Gfire about the webgame you currently play."
+                   em:creator="Gfire Team"
+                   em:iconURL="chrome://gfirewebdetection/content/gfire.png"
+                   em:homepageURL="http://gfireproject.org/"
+                   em:updateURL="http://gfireproject.org/files/update.rdf"
+                   em:updateKey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDyaQ994StrGbjiPXP2nARJaE71gzPI5ikPT/WiM+mOOMUpyxtSZmotdVZh2gWZSDxzpdhII1iWuNTJYNBRFhGzf0YK1lIu+VXset+PaJx2+uhKYllk59bIR5tKTezuZc+nSz+vMIAJGiL1k43ey5fcRp8Og/AjJkrwZaWwXNCVdwIDAQAB">
+    <em:targetApplication RDF:resource="rdf:#$LieVh3"/>
+    <em:targetApplication RDF:resource="rdf:#$C94nQ3"/>
+  </RDF:Description>
+  <Description RDF:about="rdf:#$C94nQ3"
+                   em:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   em:minVersion="2.0"
+                   em:maxVersion="2.5.*" />
+  <RDF:Description RDF:about="rdf:#$LieVh3"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="3.0"
+                   em:maxVersion="8.*" />
+</RDF:RDF>

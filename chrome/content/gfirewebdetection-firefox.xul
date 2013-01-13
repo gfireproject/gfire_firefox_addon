@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://gfirewebdetection/locale/gfirewebdetection.dtd">
+<overlay id="gfirewebdetection" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+	<stringbundleset>
+		<stringbundle id="locale-strings" src="chrome://gfirewebdetection/locale/gfirewebdetection.properties"/>
+	</stringbundleset>
+	<script type="application/javascript" src="chrome://gfirewebdetection/content/gfirewebdetection.js" />
+	<statusbar id="status-bar">
+		<statusbarpanel id="gfweb-statusbarpanel" context="gfweb-statuspopup" tooltip="gfweb-statustooltip">
+			<image id="gfweb-statusimage" src="chrome://gfirewebdetection/skin/images/gfire_inactive.png" context="gfweb-statuspopup" />
+			<tooltip id="gfweb-statustooltip">
+				<description value="Gfire WebGame Detector" style="font-size: 18px; font-weight: bold;" />
+				<hbox>
+					<description style="font-weight: bold;" value="&XfireApp.desc;" />
+					<description id="gfweb-statustooltip-app" />
+				</hbox>
+				<hbox id="gfweb-statustooltip-accountline">
+					<description style="font-weight: bold;" value="&Account.desc;" />
+					<description id="gfweb-statustooltip-account" />
+				</hbox>
+				<hbox id="gfweb-statustooltip-gameline">
+					<description style="font-weight: bold;" value="&Status.desc;" />
+					<description id="gfweb-statustooltip-game" />
+				</hbox>
+			</tooltip>
+		</statusbarpanel>
+		<popup id="gfweb-statuspopup">
+			<menuitem id="gfweb-statusmenu-detect" label="&DetectGames.menuitem;" type="checkbox" onclick="GfireWebdetection.toggleDetection();" />
+			<menuseparator />
+			<menuitem id="gfweb-statusmenu-profile" label="&XfireProfile.menuitem;" onclick="GfireWebdetection.openProfileWebsite();" />
+			<menuitem label="&XfireWebsite.menuitem;" onclick="GfireWebdetection.openXfireWebsite();" />
+			<menuseparator />
+			<menuitem label="&GfireWebsite.menuitem;" onclick="GfireWebdetection.openGfireWebsite();" />
+			<menuitem label="&AboutGfire.menuitem;" onclick="GfireWebdetection.openAboutGfireWebsite();" />
+		</popup>
+	</statusbar>
+</overlay>

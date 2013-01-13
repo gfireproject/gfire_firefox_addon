@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$xRLJd3"
+                   em:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   em:minVersion="2.0"
+                   em:maxVersion="2.6.*"
+                   em:updateLink="http://gfireproject.org/files/gfirewebdetection-1.3.xpi"
+                   em:updateHash="sha1:ac0da9afa586c722d1e14a94a1e20a70345ae6a8" />
+  <RDF:Description RDF:about="rdf:#$RieVh3"
+                   em:version="1.3">
+    <em:targetApplication RDF:resource="rdf:#$UieVh3"/>
+    <em:targetApplication RDF:resource="rdf:#$xRLJd3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$UieVh3"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="3.0"
+                   em:maxVersion="9.*"
+                   em:updateLink="http://gfireproject.org/files/gfirewebdetection-1.3.xpi"
+                   em:updateHash="sha1:ac0da9afa586c722d1e14a94a1e20a70345ae6a8" />
+  <RDF:Seq RDF:about="rdf:#$QieVh3">
+    <RDF:li RDF:resource="rdf:#$RieVh3"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:extension:{e1f9ea30-0906-11df-8a39-0800200c9a66}"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBANvuEu6sk+fbwd+vDMfJhzpgRO0DBMzlXY0iCLtVAPQCIKA1KQlKjEvEj/bQLMH0/YiFnK/i5rIf3bb1tVPV4NA1OlzgxVjyrUpNbeXJK+MkXPEXA83n+Nq6aRG7DaJbgwg8J+Mj4e58xcjfmRRBMuVoWzXNja6cWxhFRypGoRBI">
+    <em:updates RDF:resource="rdf:#$QieVh3"/>
+  </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,8 @@
+<!ENTITY	XfireApp.desc		"Application Xfire:">
+<!ENTITY	Account.desc		"Compte:">
+<!ENTITY	Status.desc		"Statut:">
+<!ENTITY	DetectGames.menuitem	"Détecter mes jeux">
+<!ENTITY	XfireProfile.menuitem	"Profil Xfire">
+<!ENTITY	XfireWebsite.menuitem	"Site web d'Xfire">
+<!ENTITY	GfireWebsite.menuitem	"Site web de Gfire">
+<!ENTITY	AboutGfire.menuitem	"A propos de Gfire">
